@@ -112,7 +112,7 @@ section h2::after {
 
 /* Header & Navigation */
 header {
-    background: var(--primary-color);
+    background-color: var(--white);
     color: var(--white);
     position: fixed;
     top: 0;
@@ -142,7 +142,7 @@ header .container {
 }
 
 .logo h1 {
-    color: var(--white);
+    color: var(--dark-color);
     font-size: 1.5rem;
     margin: 0;
 }
@@ -162,7 +162,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--white);
+    color: var(--dark-color);
     text-decoration: none;
     font-weight: 500;
     transition: var(--transition);
@@ -338,7 +338,6 @@ nav ul li a.active::after {
     border-radius: 10px;
     box-shadow: var(--shadow);
     background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
-
 }
 
 /* Services Section */
